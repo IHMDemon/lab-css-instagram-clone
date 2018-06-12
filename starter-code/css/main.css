@@ -3,8 +3,133 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+a{
+  text-decoration: none;
+  color:#1c5380;
+  font-weight:400;
+  padding: 0px 6px;
 
+}
+footer p{display: inline-block;
+  color: grey;
+
+}
+footer{
+  text-align: center;
+
+  color: #1c5380;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+h2{
+  color:rgb(82,113,146);
+  text-align: left;
+}
+
+
+.container{
+ width: 1200px;
+ margin: 0 auto;
+ text-align: center;
+ align-items: center;
+}
+
+
+.Blu{
+  background-color:rgb(82,113,146);
+  height: 400px;
+}
+
+.bothalf{
+  background-color: white;
+  height: 600px;
+}
+
+
+
+/* For the floating Divs */
+.brand{
+  top: 40px;
+  float: left;
+}
+
+.ipContainer{
+  height: 200px;
+  width:150px;
+}
+.fleft{
+  float:left;
+}
+
+.flDiv{
+  position:relative;
+  float: left;
+  width:auto;
+  height:auto;
+  left: 10%;
+  top: 100px;
+}
+  .flDiv2{
+    position:relative;
+    float: left;
+    left: 15%;
+    top: 120px;
+    height: 78px;
+    width:500px;
+  }
+
+
+  /*  Button */
+  .flDiv2 #homebt{
+    position:relative;
+    float: left;
+    left: 18%;
+    top:24px;
+  }
+
+  .button{
+  background:url("./images/bgtile.png");
+  background-repeat: repeat;
+
+  }
+  .loginbt{
+
+   border: none;
+
+   box-shadow: 1px 2px black;
+
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 16px;
+   height: 40px;
+   width: 100px;
+
+
+  }
+  .flDiv32{
+    padding: 0px 30px;
+
+    background-size: contain;
+    background-image: url("../images/frame.png");
+    background-repeat: no-repeat;
+    position:relative;
+    float: left;
+    height: 500px;
+    width: 510px;
+    top: 230px;
+    left:15%;
+
+  }
+
+  .android{
+    align-items: center;
+    height:40px;
+    padding-left: 20px;
+  }
+
+.clear{
+  clear:both;
 }
